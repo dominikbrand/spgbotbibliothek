@@ -275,7 +275,7 @@ const Chat = () => {
     } catch (e) {
       if (!abortController.signal.aborted) {
         let errorMessage =
-          'An error occurred. Please try again. If the problem persists, please contact the site administrator.'
+          'An error occurred. Please try again. If the problem persists, please contact the site administrator. Thanks.'
         if (result.error?.message) {
           errorMessage = result.error.message
         } else if (typeof result.error === 'string') {
